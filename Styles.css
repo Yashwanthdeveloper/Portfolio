@@ -3,12 +3,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #333; /* Dark background color */
-    color: #fff; /* White text color */
+    background-color: #000; /* Black background color */
+    color: #ccc; /* Light grey text color */
+}
+
+/* Font for Headlines (e.g., h1, h2, h3, etc.) */
+h1, h2, h3 {
+    font-family: , sans-serif; /* Use the 'Bolt' font for headlines */
 }
 
 header {
-    background-color: #222; /* Slightly darker grey header background */
+    background-color: #111; /* Darker grey header background */
     text-align: center;
     padding: 1em 0;
 }
@@ -25,19 +30,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ff5555; /* Red color for links */
+    color: #fff; /* White color for links */
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #ff3333; /* Darker red on hover */
-}
-
-h1 {
-    font-size: 2.5rem;
-    margin: 0;
-    color: #ccc; /* Light grey text color for header */
+    color: #ccc; /* Light grey on hover */
 }
 
 main {
@@ -46,18 +45,18 @@ main {
 
 section {
     margin-bottom: 40px;
-    background-color: #444; /* Dark grey background for sections */
+    background-color: #222; /* Dark grey background for sections */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    color: #ff5555; /* Red text color for section headings */
+    color: #fff; /* White text color for section headings */
 }
 
 .project {
-    border: 1px solid #666; /* Dark grey border for projects */
+    border: 1px solid #444; /* Slightly lighter grey border for projects */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -92,8 +91,8 @@ section h2 {
 }
 
 footer {
-    background-color: #222; /* Slightly darker grey footer background */
+    background-color: #111; /* Darker grey footer background */
     color: #ccc; /* Light grey text color for footer */
     text-align: center;
     padding: 2em 0;
-  }
+}
