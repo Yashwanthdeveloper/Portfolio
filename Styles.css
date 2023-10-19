@@ -40,7 +40,7 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 20px;
+    padding: 10px;
 }
 
 section {
@@ -77,7 +77,7 @@ section h2 {
 }
 
 .project a {
-    display: inline-block;
+    display: outline-block;
     background-color: #3366cc; /* Blue button background */
     color: white;
     padding: 8px 16px;
@@ -95,4 +95,56 @@ footer {
     color: #ccc; /* Light grey text color for footer */
     text-align: center;
     padding: 2em 0;
+}
+
+
+
+
+
+
+
+/* Style for the iframe container */
+#iframeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Style for each iframe */
+.iframe {
+    border: none; /* Remove iframe border */
+    width: 100%; /* Make iframes responsive to the container's width */
+    max-width: 300px; /* Set a maximum width for larger screens */
+    height: auto; /* Allow the height to adjust proportionally */
+    border-radius: 15px; /* Add curved edges */
+    overflow: hidden; /* Hide overflow content */
+}
+
+/* Style for the "Open" buttons */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px; /* Larger button for a cool effect */
+    border: none;
+    cursor: pointer;
+    border-radius: 15px; /* Add curved edges to the button */
+    transition: background-color 0.3s; /* Add a transition effect to the button */
+}
+
+/* Add some margin to the button for spacing */
+button {
+    margin-top: 10px;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .iframe {
+        max-width: 100%; /* Full-width iframes for small screens */
+    }
 }
